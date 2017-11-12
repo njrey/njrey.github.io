@@ -1,9 +1,47 @@
 body {
 	font-family: Arial;
+	background-color: #66a0ff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 h4 {
 	margin: 10px 0px;
 }
 span {
 	font-weight: bold;
+}
+.intro {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.picture-container {
+	flex-grow: 2;
+	width: 33%;
+	min-width: 200px;
+    text-align: center;
+}
+.profile-pic {
+	width: 100%;
+	border-radius: 50%;
+	padding-bottom: 20px;
+}
+.background-info {
+	width: 33%;
+	min-width: 200px;
+	flex-grow: 1;
+}
+.skills {
+	width: 33%;
+	min-width: 200px;
+	flex-grow: 1;
+}
+.resume {
+	border-top: 3px solid white;
+}
+.contact-info {
+	text-align: center;
 }
