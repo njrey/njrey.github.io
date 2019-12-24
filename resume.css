@@ -3,7 +3,6 @@ html {
 }
 body {
 	font-family: Montserrat;
-	/*background-color: #68baed;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -21,39 +20,33 @@ hr {
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
-li {
-	margin: 10px 10px;
-}
-.intro {
-	/*border: 1px solid white;*/
-	/*background-color: #66a4cc;*/
+.skills .skills-list {
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
-	padding: 5px
+	width: 100%;
 }
-.picture-container {
-	flex-grow: 2;
-	width: 30%;
-	min-width: 200px;
-    text-align: center;
+.skills-list div {
+	height: 40px;
+	margin: 15px;
+}
+.skills-list img {
+	max-height: 50%;
+}
+#about {
+	display: flex;
+	flex-wrap: wrap;
 }
 .profile-pic {
-	width: 100%;
+	width: 200px;
 	border-radius: 50%;
-	padding-bottom: 20px;
 }
 .background-info {
 	width: 35%;
 	min-width: 300px;
 	flex-grow: 1;
 }
-.skills {
-	width: 30%;
-	min-width: 200px;
-	flex-grow: 1;
-}
-.resume {
+#experience li {
+	margin: 5px;
 }
 .contact-info {
 	text-align: center;
